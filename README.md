@@ -4,7 +4,7 @@ A mobile app that shows people nearby who have a drink to share. A user signs up
 
 > **Status: working prototype.** The backend, database and Android app run end to end on a developer machine.
 >
-> *Working title.* Earlier versions were called "Cheers Nearby". Some text in the code (the SMS message, the API title, the database name `cheers`) still uses that name.
+> *Working title.* "Cheers Nearby". Some text in the code (the SMS message, the API title, the database name `cheers`) uses that name.
 
 ## Features
 
@@ -113,10 +113,6 @@ Meeting strangers who carry alcohol carries real risk, so these controls are par
 - Phone numbers are never shown to other users
 - Report and block are on every card and in every chat
 
-## Configuration and secrets
-
-Secrets are read from environment variables and are never stored in the repository. Do not commit passwords, `.env` files or tokens. `DEV_OTP=1` returns sign-up codes in the API response and must never be set on a server that real users can reach.
-
 ## Licence
 
-No licence has been chosen yet, so all rights are reserved by default.
+MIT Licenced
