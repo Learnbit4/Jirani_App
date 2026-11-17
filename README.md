@@ -2,7 +2,7 @@
 
 A mobile app that shows people nearby who have a drink to share. A user signs up with a phone number, lists what they have (drink and quantity), goes live for two hours, and swipes through people close by. Two people who both swipe right match and can chat for 24 hours.
 
-> **Status: working prototype.** The backend, database and Android app run end to end on a developer machine. It is not ready for real users. See [Known limitations](docs/PROGRAM_DOCUMENTATION.md#11-known-limitations-and-next-steps).
+> **Status: working prototype.** The backend, database and Android app run end to end on a developer machine.
 >
 > *Working title.* Earlier versions were called "Cheers Nearby". Some text in the code (the SMS message, the API title, the database name `cheers`) still uses that name.
 
